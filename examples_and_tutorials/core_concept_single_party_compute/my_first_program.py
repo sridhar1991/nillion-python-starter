@@ -36,7 +36,7 @@ async def main():
 
     # Create a secret
     stored_secret = nillion.Secrets({
-        "my_int1": nillion.SecretInteger(500),
+        "my_int1": nillion.SecretInteger(11),
     })
     secret_bindings = nillion.ProgramBindings(program_id)
     secret_bindings.add_input_party(party_name, party_id)
@@ -54,7 +54,7 @@ async def main():
     print(f"Computing using program {program_id}")
     print(f"Use secret store_id: {store_id}")
 
-    computation_time_secrets = nillion.Secrets({"my_int2": nillion.SecretInteger(10)})
+    computation_time_secrets = nillion.Secrets({"factor": nillion.SecretInteger(2)})
 
     # Compute on the secret
     compute_id = await client.compute(

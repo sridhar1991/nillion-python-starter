@@ -1,0 +1,67 @@
+ℹ️ found bin NILLION_DEVNET     -> [/root/.nilup/sdks/latest/nillion-devnet]
+ℹ️ found bin NILLION_CLI        -> [/root/.nilup/sdks/latest/nillion]
+--------------------
+Updating your .env files with nillion-devnet environment info... This may take a minute.
+--------------------
+✔️cluster is running, bootnode is at /ip4/127.0.0.1/tcp/37939/p2p/12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+ℹ️ Cluster has been STARTED (see /tmp/tmp.R2knBVgy23)
+ℹ️cluster id is 9e68173f-9c23-4acc-ba81-4f079b639964
+ℹ️using 256 bit prime
+ℹ️storing state in /tmp/.tmpoUIoOw (79.92Gbs available)
+⛓️starting blockchain node...
+✔️blockchain node running on endpoint http://localhost:61391
+🏃starting node 12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+⏳waiting until bootnode is up...
+🏃starting node 12D3KooWAiwGZUwSUaT2bYVxGS8jmfMrfsanZYkHwH3uL7WJPsFq
+🏃starting node 12D3KooWM3hsAswc7ZT6VpwQ1TCZU4GCYY55nLhcsxCcfjuixW57
+🎁wallet keys written to /tmp/.tmpoUIoOw/private-keys.txt
+📝payments configuration written to /tmp/.tmpoUIoOw/payments-config.yaml
+🥾bootnode config written to /tmp/.tmpoUIoOw/bootnode.yaml
+📝configuration written to /root/.config/nillion/config.yaml
+✔️cluster is running, bootnode is at /ip4/127.0.0.1/tcp/37939/p2p/12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+🔗websocket: /ip4/127.0.0.1/tcp/54936/ws/p2p/12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+Generating node key
+Saving node key to /tmp/tmp.I9EU6F8A5x
+Generating node key
+Saving node key to /tmp/tmp.esHIyYjGiy
+Generating node key
+Saving node key to /tmp/tmp.AuEn8W8USM
+Generating node key
+Saving node key to /tmp/tmp.9snJZqkK9h
+Generating node key
+Saving node key to /tmp/tmp.MxnxU9Ob1P
+Generating user key
+Saving user key to /tmp/tmp.EynveXKUXR
+Generating user key
+Saving user key to /tmp/tmp.X6v3U3vUq4
+Generating user key
+Saving user key to /tmp/tmp.tEbt86bjvt
+Generating user key
+Saving user key to /tmp/tmp.LDJMaVbK1v
+Generating user key
+Saving user key to /tmp/tmp.p0olYgP20i
+🔑 Node key and user keys have been generated and added to .env
+Running at process pid: 1450
+-------------------------------------------------------
+                   7MM   7MM                           
+                    MM    MM                           
+              db    MM    MM    db                     
+                    MM    MM                           
+.7MMpMMMb.   7MM    MM    MM   7MM  ,pW-Wq. 7MMpMMMb.  
+  MM    MM    MM    MM    MM    MM 6W'    Wb MM    MM  
+  MM    MM    MM    MM    MM    MM 8M     M8 MM    MM  
+  MM    MM    MM    MM    MM    MM YA.   ,A9 MM    MM  
+.JMML  JMML..JMML..JMML..JMML..JMML. Ybmd9 .JMML  JMML.
+-------------------------------------------------------
+-------------------------------------------------------
+-----------🦆 CONNECTED TO NILLION-DEVNET 🦆-----------
+-------------------------------------------------------
+ℹ️ Your .env file configurations were updated with nillion-devnet connection variables: websocket, cluster id, keys, blockchain info
+💻 The Nillion devnet is still running behind the scenes; to spin down the Nillion devnet at any time, run 'killall nillion-devnet'
+--------------------
+💻 Your Nillion local cluster is still running - process pid: 1450
+ℹ️  Updated your .env file configuration variables: bootnode, cluster id, keys, blockchain info
+[2024-06-27T09:45:32Z ERROR node::managers::compute::handlers::compute] Failed to process message: task StoreProgramCompute<6e5e54a5-5559-4613-ba80-c013b6d417b2> not found
+[2024-06-27T09:45:32Z ERROR node::managers::compute::handlers::compute] Failed to process message: task StoreProgramCompute<6e5e54a5-5559-4613-ba80-c013b6d417b2> not found
+[2024-06-27T09:45:52Z ERROR node::managers::compute::handlers::compute] Failed to process message: task StoreProgramCompute<6e5e54a5-5559-4613-ba80-c013b6d417b2> not found
+[2024-06-27T09:45:52Z ERROR node::managers::compute::handlers::compute] Failed to process message: task StoreProgramCompute<6e5e54a5-5559-4613-ba80-c013b6d417b2> not found
